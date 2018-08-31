@@ -1,0 +1,68 @@
+*{
+    transition: all 0.3s;
+}
+
+body{
+    position: relative;
+    padding-top: 3.5rem;
+    font-family: "segoe ui light";
+    font-weight: 500;
+
+}
+
+/* Navbar */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+
+#mBekheet{
+    background: url(../img/proto-background-nuanced.svg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+.box h1{
+    font-size: 18px;
+    color: darkgray
+}
+p{
+    color: rgb(136, 131, 131);
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.box{
+    background-color: #0c0c0cb6;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    color: white;
+    box-shadow: -19px 18px 30px rgba(0, 0, 0, 0.29), 14px 20px 30px rgba(0, 0, 0, 0.31);
+    border: 1px solid rgba(20, 20, 20, 0.301);
+}
+
+/* Testimonials */
+
+#testimonials
+{
+    background: #2b2b2b;
+    /* Height will be removed after we add all sections */
+    height: 100vh;
+}
+#testimonials .active {
+    border:none;
+}
+
+.revs {
+    padding: 70px;
+}
